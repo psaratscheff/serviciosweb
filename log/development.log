@@ -131,3 +131,39 @@ Started GET "/validarFirma" for 127.0.0.1 at 2016-03-15 19:13:29 -0300
 Processing by ValidarFirmaController#index as HTML
   Rendered text template (0.0ms)
 Completed 400 Bad Request in 3ms (Views: 2.4ms)
+
+
+Started GET "/validarFirma" for 127.0.0.1 at 2016-03-15 19:24:20 -0300
+
+SyntaxError (/home/pedro/Documents/projects/serviciosweb/app/controllers/validar_firma_controller.rb:5: syntax error, unexpected tIDENTIFIER, expecting keyword_then or ';' or '\n'
+      unless hash = sha256.hexdigest params[:mensaje]
+                                           ^
+/home/pedro/Documents/projects/serviciosweb/app/controllers/validar_firma_controller.rb:17: syntax error, unexpected keyword_end, expecting end-of-input):
+  app/controllers/validar_firma_controller.rb:5: syntax error, unexpected tIDENTIFIER, expecting keyword_then or ';' or '\n'
+  app/controllers/validar_firma_controller.rb:17: syntax error, unexpected keyword_end, expecting end-of-input
+
+
+  Rendered /home/pedro/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.2ms)
+  Rendered /home/pedro/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /home/pedro/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/pedro/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (19.6ms)
+
+
+Started GET "/validarFirma" for 127.0.0.1 at 2016-03-15 19:24:55 -0300
+
+SyntaxError (/home/pedro/Documents/projects/serviciosweb/app/controllers/validar_firma_controller.rb:5: syntax error, unexpected tIDENTIFIER, expecting keyword_then or ';' or '\n'
+      unless hash = sha256.hexdigest params[:mensaje]
+                                           ^):
+  app/controllers/validar_firma_controller.rb:5: syntax error, unexpected tIDENTIFIER, expecting keyword_then or ';' or '\n'
+
+
+  Rendered /home/pedro/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.3ms)
+  Rendered /home/pedro/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /home/pedro/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/pedro/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (16.0ms)
+
+
+Started GET "/validarFirma" for 127.0.0.1 at 2016-03-15 19:25:38 -0300
+Processing by ValidarFirmaController#index as HTML
+  Rendered text template (0.0ms)
+Completed 400 Bad Request in 5ms (Views: 4.5ms)
