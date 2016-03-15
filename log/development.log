@@ -106,3 +106,28 @@ Started GET "/status" for 127.0.0.1 at 2016-03-15 19:08:13 -0300
 Processing by StatusController#index as HTML
   Rendered text template (0.0ms)
 Completed 201 Created in 6ms (Views: 5.7ms)
+
+
+Started GET "/validarFirma?hash=F0393FEBE8BAAA55E32F7BE2A7CC180BF34E52137D99E056C817A9C07B8F239A" for 127.0.0.1 at 2016-03-15 19:10:21 -0300
+Processing by ValidarFirmaController#index as */*
+  Parameters: {"hash"=>"F0393FEBE8BAAA55E32F7BE2A7CC180BF34E52137D99E056C817A9C07B8F239A"}
+  Rendered text template (0.0ms)
+Completed 200 OK in 7ms (Views: 6.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-15 19:10:42 -0300
+Processing by Rails::WelcomeController#index as */*
+  Rendered /home/pedro/.rvm/gems/ruby-2.2.1/gems/railties-4.2.6/lib/rails/templates/rails/welcome/index.html.erb (1.5ms)
+Completed 200 OK in 7ms (Views: 6.5ms)
+
+
+Started GET "/status" for 127.0.0.1 at 2016-03-15 19:10:46 -0300
+Processing by StatusController#index as */*
+  Rendered text template (0.0ms)
+Completed 201 Created in 2ms (Views: 2.1ms)
+
+
+Started GET "/validarFirma" for 127.0.0.1 at 2016-03-15 19:13:29 -0300
+Processing by ValidarFirmaController#index as HTML
+  Rendered text template (0.0ms)
+Completed 400 Bad Request in 3ms (Views: 2.4ms)
