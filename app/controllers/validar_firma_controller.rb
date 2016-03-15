@@ -7,9 +7,11 @@ class ValidarFirmaController < ApplicationController
       end
       hash = sha256.hexdigest params[:mensaje]
       if hash.downcase == (params[:hash].downcase)
-        render :json => true
+        render :json => {"valido": true,
+                        "mensaje": params[:mensaje]}
       else
-        render :json => false
+        render :json => {"valido": false,
+                        "mensaje": params[:mensaje]}
       end
     else
       render nothing: true, status: 400
