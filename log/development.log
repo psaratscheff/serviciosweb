@@ -1,0 +1,48 @@
+
+
+Started GET "/validarFirma" for 127.0.0.1 at 2016-03-15 18:56:48 -0300
+Processing by ValidarFirmaController#index as HTML
+  Rendered text template (0.0ms)
+Completed 200 OK in 5ms (Views: 4.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/status" for 127.0.0.1 at 2016-03-15 18:56:52 -0300
+Processing by StatusController#index as HTML
+  Rendered text template (0.0ms)
+Completed 201 Created in 4ms (Views: 3.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/status" for 127.0.0.1 at 2016-03-15 18:58:42 -0300
+Processing by StatusController#index as HTML
+  Rendered text template (0.0ms)
+Completed 201 Created in 5ms (Views: 4.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/status" for 127.0.0.1 at 2016-03-15 18:58:50 -0300
+Processing by StatusController#index as HTML
+  Rendered text template (0.0ms)
+Completed 201 Created in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/validarFirma" for 127.0.0.1 at 2016-03-15 18:58:55 -0300
+Processing by ValidarFirmaController#index as HTML
+  Rendered text template (0.0ms)
+Completed 200 OK in 5ms (Views: 4.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/validarFirma" for 127.0.0.1 at 2016-03-15 18:59:25 -0300
+Processing by ValidarFirmaController#index as HTML
+  Rendered text template (0.0ms)
+Completed 200 OK in 5ms (Views: 4.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/validarFirma" for 127.0.0.1 at 2016-03-15 18:59:25 -0300
+Processing by ValidarFirmaController#index as HTML
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/validarFirma" for 127.0.0.1 at 2016-03-15 18:59:26 -0300
+Processing by ValidarFirmaController#index as HTML
+  Rendered text template (0.0ms)
+Completed 200 OK in 0ms (Views: 0.3ms | ActiveRecord: 0.0ms)
